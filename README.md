@@ -4,14 +4,16 @@
 
 ## file description
 ### Jupyter Notebooks
+1. EDA.ipynb
+   - you can get dataset plots
+
+### utils
 1. merge_csv.ipynb
    - merge all .csv files on each bearing
    - change timestamp to datetime from accelaration .csv files
    - create folders for merged data
-2. EDA.ipynb
-   - you can get dataset plots
-
-### utils
+2. load_data
+   - load_csv: load the merged CSV files and save them in a class
 
 ## data processing
 ## Results
