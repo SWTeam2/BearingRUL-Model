@@ -16,4 +16,6 @@
    - load_csv: load the merged CSV files and save them in a class
 
 ## data processing
+1. 데이터 증강
+
 ## Results
