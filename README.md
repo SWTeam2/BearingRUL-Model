@@ -1,4 +1,4 @@
-<img width="763" alt="front" src="https://github.com/SWTeam2/Data_preprocessing/assets/139730231/5920ef27-f4a4-49b6-af37-ac67fd3efa73">
+<img width="1000" alt="front" src="https://github.com/SWTeam2/Data_preprocessing/assets/139730231/5920ef27-f4a4-49b6-af37-ac67fd3efa73">
 
 # Data preprocessing
 시계열 데이터 증강기법들에 대한 코드들입니다. 
