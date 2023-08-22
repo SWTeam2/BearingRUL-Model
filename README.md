@@ -1,5 +1,9 @@
+<img width="763" alt="front" src="https://github.com/SWTeam2/Data_preprocessing/assets/139730231/5920ef27-f4a4-49b6-af37-ac67fd3efa73">
+
 # Data preprocessing
-repository for Data preprocessing
+시계열 데이터 증강기법들에 대한 코드들입니다. 
+
+노이즈를 추가하거나, 슬라이딩 윈도우를 이용해 비슷하지만 다른 데이터를 만들어 모델의 정확도를 높이는데 사용됩니다.
 
 ## Data report
 - 디지털 대시보드 서비스 제공을 위한 Bearing RUL 예측 모델
@@ -8,30 +12,30 @@ repository for Data preprocessing
 ## file description
 ### Augmentation
 1. [CNN_LSTM_DataSet_Preparation.ipynb](augmentation/CNN_LSTM_DataSet_Preparation.ipynb)
-   - 찬영님 help
+   
 2. [Delete_noisy.ipynb](augmentation/Delete_noisy.ipynb)
-   - .
+   
 3. [G_Noisy.ipynb](augmentation/G_Noisy.ipynb)
-   - .
+   
 4. [Noisy_data_pkz.ipynb](augmentation/Noisy_data_pkz.ipynb)
-   - .
+   
 5. [sliding.ipynb](augmentation/sliding.ipynb)
-   - 가윤님 help
-### [EDA.ipynb](EDA.ipynb)
-- you can get dataset plots
+   
+### EDA
+[EDA.ipynb](EDA.ipynb)
+진동 시계열 데이터 시각화 코드입니다.
 
-### Utils
-1. merge_csv.ipynb
-   - merge all .csv files on each bearing
-   - change timestamp to datetime from accelaration .csv files
-   - create folders for merged data
-2. load_data
-   - load_csv: load the merged CSV files and save them in a class
+<div>
+	<h3>📚 Tech Stack 📚</h3>
+	<p>✨ Platforms & Languages ✨</p>
+   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+</div>
+
 
 ## Process
 - data augmentation
-   1. noise addition method : 찬영님 help
-   2. window sliding method : 가윤님 help
+   1. noise addition method
+   2. window sliding method 
 - EDA
 
 ## Example of EDA result
