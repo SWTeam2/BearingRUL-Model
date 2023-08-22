@@ -23,6 +23,7 @@
    
 ### EDA
 [EDA.ipynb](EDA.ipynb)
+
 진동 시계열 데이터 시각화 코드입니다.
 
 <div>
